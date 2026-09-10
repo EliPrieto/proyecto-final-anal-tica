@@ -1,0 +1,12 @@
+# La base cruda NUNCA se sube: pesa 280 MB y contiene datos personales
+# (cédulas de pasajeros, nombres de pasajeros y nombres de vendedores).
+parquet/
+csv/
+*.parquet
+*.csv.gz
+BASE_LIMPIA_TIQUETES/
+
+# Basura del sistema
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
